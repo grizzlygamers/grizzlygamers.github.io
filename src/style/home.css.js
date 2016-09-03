@@ -12,6 +12,23 @@ module.exports = {
     width: '100%',
     height: '300px',
   },
+
+  '.social-logos': {
+    height: '20vw',
+    maxHeight: '200px',
+    textAlign: 'center',
+
+    img: {
+      margin: '0 5vw',
+      verticalAlign: 'top',
+      width: 'auto',
+      height: '100%',
+    },
+
+    '.twitch-logo': {
+      height: '88%',
+    },
+  },
 },
 
 };
