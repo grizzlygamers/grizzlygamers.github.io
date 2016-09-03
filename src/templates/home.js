@@ -1,8 +1,11 @@
 var React = require('react');
 var Page = require('./components/page');
+var Carousel = require('./components/carousel');
+
 module.exports = props =>
 
 <Page className="page-home" title="Home Page">
+  <Carousel/>
   <h1>Welcome!</h1>
   <p>Grizzly Gaming Club aims to educate and inform students about computer programming, technology, and game development through the use of electronic entertainment devices and emphasis on leadership, teamwork, and communication skills.</p>
   <p>This is our first year at Grassfield High School and we are excited to get started.</p>

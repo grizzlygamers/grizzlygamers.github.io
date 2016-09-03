@@ -1,17 +1,19 @@
-document.body.addEventListener('mouseover', e => {
-  if (!/^nav/.test(e.target.id)) {
+(function initCarousel() {
+  var root = document.querySelector('.carousel');
+  if (!root) {
     return;
   }
+  console.warn(root);
 
-  // Remove hover state from all top-level navs
-  [].forEach.call(document.querySelectorAll('.navigation nav a'), el => el.classList.remove('hover'));
+  var images = root.querySelectorAll('.carousel-image');
+  var current = 0;
 
-  // Add hover state to current top-level nav
-  e.target.classList.add('hover');
-
-  // Hide whatever subnav is already showing
-  [].forEach.call(document.querySelectorAll('.navigation .show'), el => el.classList.remove('show'));
-
-  // Show the subnav content for this navigation item
-  document.querySelector(`[for="${e.target.id}"]`).classList.add('show');
-});
+  (function loop() {
+    setTimeout(function() {
+      images[current].classList.remove('show');
+      current = (current + 1) % images.length;
+      images[current].classList.add('show');
+      loop();
+    }, 3000);
+  }());
+}());

@@ -2,6 +2,10 @@ module.exports = {
 
 '.page-home': {
 
+  h1: {
+    marginTop: '20px',
+  },
+
   h2: {
     textAlign: 'left',
     padding: '25px 0px 8px 0px',
