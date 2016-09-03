@@ -3,7 +3,7 @@ Grizzly Video Game Club
 
 Features
 ---
-1. Calendar (google embed - grizzlyvgc@gmail.com)
+1. Calendar (google embed - grizzlyvgclub@gmail.com)
 2. Navigation bar across pages
 3. Leaderboard (static HTML for now)
 4. Needs mobile version

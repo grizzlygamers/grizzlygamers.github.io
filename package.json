@@ -1,0 +1,34 @@
+{
+  "name": "grizzly-gaming-club",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Club Members <grizzlyvgclub@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node tasks dev",
+    "dev": "node tasks dev",
+    "compile": "node tasks compile",
+    "build": "node tasks build"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-register": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "compression": "^1.6.2",
+    "connect": "^3.4.1",
+    "del": "^2.2.2",
+    "gussy": "0.0.8",
+    "js-beautify": "^1.6.4",
+    "marked": "^0.3.6",
+    "mkdirp": "^0.5.1",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "sane": "^1.4.1",
+    "serve-static": "^1.11.1",
+    "uglifyify": "^3.0.2",
+    "watchify": "^3.7.0"
+  }
+}
