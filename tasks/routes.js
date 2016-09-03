@@ -2,7 +2,7 @@
 var routes = {
   '/': 'home',
   '/games': 'games',
-  '/leaderboards': 'leaderboards',
+  '/ranking': 'ranking',
   '/about': 'about',
   '/contact': 'contact',
   '/players': 'players',
