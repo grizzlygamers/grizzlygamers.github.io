@@ -1,6 +1,6 @@
 module.exports = {
 
-'.page-home': {
+'.page-about': {
 },
 
 };

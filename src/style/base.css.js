@@ -2,7 +2,6 @@ module.exports = {
 
 html: {
   boxSizing: 'border-box',
-  textAlign: 'center',
   fontFamily: 'Arial, Helvetica, Verdana, sans-serif',
 },
 
@@ -31,6 +30,7 @@ body: {
 },
 
 nav: {
+  textAlign: 'center',
   background: '#ddd',
   margin: '0 0 10px 0',
   a: {
@@ -53,6 +53,10 @@ nav: {
   minHeight: '100%',
   background: '#fff',
   margin: '0 auto',
+  
+  '.page-content': {
+    padding: '20px',
+  }
 },
 
 };

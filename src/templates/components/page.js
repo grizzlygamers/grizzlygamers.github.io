@@ -1,4 +1,6 @@
 var React = require('react');
+var Navigation = require('./navigation');
+var Header = require('./header');
 module.exports = props =>
 
 <html>
@@ -10,7 +12,12 @@ module.exports = props =>
   </head>
   <body>
     <div className={['page container', props.className || ''].join(' ')}>
-      { props.children }
+      <Header/>
+      <Navigation/>
+
+      <div className="page-content">
+        { props.children }
+      </div>
     </div>
     <script src="/app.js"/>
   </body>

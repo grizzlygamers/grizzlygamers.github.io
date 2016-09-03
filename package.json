@@ -9,7 +9,7 @@
     "dev": "node tasks dev",
     "compile": "node tasks compile",
     "build": "node tasks build",
-    "gh-pages": "node tasks build && git checkout master && git rm --ignore-unmatch * && cp -R web/* . && git add ."
+    "gh-pages": "node tasks build && git checkout master && git rm --ignore-unmatch -r * && cp -R web/* . && git add ."
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.14.0",
